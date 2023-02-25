@@ -30,6 +30,24 @@
         width: '50%',
         bgColor: '#2ecc71',
       },
+      {
+        path: '/css/grid',
+        label: 'grid练习',
+        width: '50%',
+        bgColor: '#3462fd',
+      },
+      {
+        path: '/demo/animejs',
+        label: 'animejs',
+        width: '50%',
+        bgColor: '#8e44ad',
+      },
+      {
+        path: '/demo/dynamicText',
+        label: '跑马灯字体',
+        width: '50%',
+        bgColor: '#e74c3c',
+      },
     ],
   });
   const clickEvt = (e) => {
