@@ -48,6 +48,12 @@
         width: '50%',
         bgColor: '#e74c3c',
       },
+      {
+        path: '/demo/imgLazy',
+        label: '图片懒加载',
+        width: '50%',
+        bgColor: '#e74c3c',
+      },
     ],
   });
   const clickEvt = (e) => {

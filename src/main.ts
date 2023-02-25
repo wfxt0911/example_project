@@ -7,6 +7,7 @@ import '/@/styles/reset.less';
 import 'uno.css';
 import 'ant-design-vue/dist/antd.css';
 import Antd from 'ant-design-vue';
+import global from '/@/plugins/global';
 
 // 支持SVG
 import 'virtual:svg-icons-register';
@@ -16,4 +17,5 @@ const app = createApp(App);
 app.use(router);
 app.use(piniaStore);
 app.use(Antd);
+app.use(global);
 app.mount('#app');

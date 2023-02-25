@@ -24,4 +24,8 @@ export default [
     path: '/demo/dynamicText',
     component: () => import('/@/views/demo/dynamicText.vue'),
   },
+  {
+    path: '/demo/imgLazy',
+    component: () => import('/@/views/demo/imgLazy/index.vue'),
+  },
 ];
