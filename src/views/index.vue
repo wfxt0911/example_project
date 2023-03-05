@@ -52,7 +52,13 @@
         path: '/demo/imgLazy',
         label: '图片懒加载',
         width: '50%',
-        bgColor: '#e74c3c',
+        bgColor: '#e67e22',
+      },
+      {
+        path: '/demo/requestAnimationFrame',
+        label: 'requestAnimationFrame',
+        width: '50%',
+        bgColor: '#8e44ad',
       },
     ],
   });

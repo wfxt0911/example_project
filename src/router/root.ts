@@ -28,4 +28,8 @@ export default [
     path: '/demo/imgLazy',
     component: () => import('/@/views/demo/imgLazy/index.vue'),
   },
+  {
+    path: '/demo/requestAnimationFrame',
+    component: () => import('/@/views/demo/requestAnimationFrame/index.vue'),
+  },
 ];
