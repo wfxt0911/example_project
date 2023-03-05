@@ -1,6 +1,5 @@
 <template>
-  <div class="img-lazy p-6" v-lazyLoad>
-    <!-- <img src="./loading.png" /> -->
+  <div class="img-lazy p-6">
     <img :src="item" v-for="item in images" :key="item" v-lazyLoad />
   </div>
 </template>

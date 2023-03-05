@@ -60,6 +60,12 @@
         width: '50%',
         bgColor: '#8e44ad',
       },
+      {
+        path: '/demo/deepCopy',
+        label: '深拷贝',
+        width: '50%',
+        bgColor: '#1abc9c',
+      },
     ],
   });
   const clickEvt = (e) => {

@@ -32,4 +32,8 @@ export default [
     path: '/demo/requestAnimationFrame',
     component: () => import('/@/views/demo/requestAnimationFrame/index.vue'),
   },
+  {
+    path: '/demo/deepCopy',
+    component: () => import('/@/views/demo/deepCopy/index.vue'),
+  },
 ];
