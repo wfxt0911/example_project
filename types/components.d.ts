@@ -12,6 +12,8 @@ declare module '@vue/runtime-core' {
     ACardGrid: typeof import('ant-design-vue/es')['CardGrid'];
     ADivider: typeof import('ant-design-vue/es')['Divider'];
     ElButton: typeof import('element-plus/es')['ElButton'];
+    ElCard: typeof import('element-plus/es')['ElCard'];
+    ElDivider: typeof import('element-plus/es')['ElDivider'];
     Header: typeof import('./../src/components/Header/index.vue')['default'];
     RouterLink: typeof import('vue-router')['RouterLink'];
     RouterView: typeof import('vue-router')['RouterView'];
